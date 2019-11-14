@@ -1,0 +1,156 @@
+body {
+  font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #dadada;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  transition: background-color 100ms linear;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}
+
+button.primary {
+  background-color: rgba(0,174,239,1);
+  color: #ffffff;
+}
+
+button.primary:hover {
+  background-color: rgba(34,193,195,1);
+}
+
+article {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  height: 60px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+header article {
+  display: flex;
+}
+
+header article .logo {
+  margin: 0;
+  padding: 20px;
+  flex: 1 1 auto;
+}
+
+header article nav {
+  flex: 0 0 auto;
+  display: flex;
+}
+
+header nav a {
+  padding: 20px;
+  display: block;
+  flex: 0 0 auto;
+}
+
+section.boxes {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.app-box {
+  flex: 0 0 200px;
+  height: 200px;
+  border: 1px solid #eeeeee;
+  margin: 5px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.app-box a {
+  display: block;
+  height: 160px;
+  width: 160px;
+  padding: 20px;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.9);
+  transition: opacity 100ms linear;
+  text-decoration: none;
+  color: #000000;
+}
+
+.app-box:hover a {
+  opacity: 1;
+}
+
+.banner {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #efefef;
+}
+
+.banner.blue {
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,174,239,1) 100%);
+}
+
+.banner .logo {
+  max-height: 100px;
+}
+
+.split {
+  display: flex;
+}
+
+.split article, .split div {
+  flex: 1;
+  justify-content: space-between; 
+}
+
+.split .screenshot {
+  display: block;
+  max-width: 100%;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.screenshots .screenshot {
+  flex: 0 0 200px;
+}
+
+.screenshots .screenshot img {
+  max-width: 100%;
+  max-height: 450px;
+}
+
+.cta {
+  text-align: center;
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
+}
