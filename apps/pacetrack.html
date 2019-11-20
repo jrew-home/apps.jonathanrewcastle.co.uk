@@ -2,11 +2,48 @@
 layout: layout.njk
 title: PaceTrack Pace Calculator
 tagline: Track your running times
-appstoreUrl: "https://itunes.apple.com/gb/app/pacetrack/id555940189?mt=8&uo=4"
+metaKeywords: "running, run, jogging, jog, average, speed, time, distance, log, personal, bests, pb, intervals, fitness, tracking"
+appstoreUrl: "http://itunes.apple.com/gb/app/pacetrack/id555940189?mt=8&uo=4"
+appstoreId: 555940189
+mediaPath: pacetrack
 ---
 <section class="banner">
-  <h1>{{ title }}</h1>
-  <h4>{{ tagline }}</h4>
-  <p>More info coming soon...</p>
-  <p><a href="{{ appstoreUrl }}" target="_blank">View on the App Store</a></p>
+  <article>
+    <h1>{{ title }}</h1>
+    <h4>{{ tagline }}</h4>
+    <article>
+      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download free from the App Store</button></p>
+    </article>
+  </article>
+</section>
+<section>
+  <article class="split">
+    <div>
+      <p>Keep track of your running and jogging in PaceTrack:</p>
+      <ul>
+        <li>Calculate your pace; average speed and the time it would take complete certain distances at that pace</li>
+        <li>Keep a log of your runs; sorted by date</li>
+        <li>Email your log for easy viewing</li>
+        <li>View your personal bests for certain distances</li>
+        <li>Easily change between kilometers and miles at the click of a button</li>
+      </ul>
+    </div>
+    <div>
+      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+    </div>
+  </article>
+</section>
+<section>
+  <article class="screenshots">
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/6.png"></article>
+  </article>
+</section>
+<section class="banner">
+  <article>
+    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+  </article>
 </section>
