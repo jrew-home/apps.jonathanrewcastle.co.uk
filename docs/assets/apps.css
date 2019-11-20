@@ -74,7 +74,7 @@ header nav a {
   flex: 0 0 auto;
 }
 
-section.boxes {
+.boxes {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -82,28 +82,23 @@ section.boxes {
   padding: 5px;
 }
 
-.app-box {
+.boxes .app-box {
   flex: 0 0 200px;
-  height: 200px;
+  height: 260px;
   border: 1px solid #eeeeee;
   margin: 5px;
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
-.app-box a {
+.boxes .app-box a {
   display: block;
-  height: 160px;
-  width: 160px;
-  padding: 20px;
-  opacity: 0;
-  background: rgba(255, 255, 255, 0.9);
+  padding: 210px 20px 20px;
   transition: opacity 100ms linear;
-  text-decoration: none;
-  color: #000000;
 }
 
-.app-box:hover a {
+.boxes .app-box:hover a {
   opacity: 1;
 }
 
@@ -191,7 +186,6 @@ section.boxes {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-
 }
 
 .features .feature {
