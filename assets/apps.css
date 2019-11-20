@@ -107,12 +107,19 @@ section.boxes {
   text-align: center;
   padding: 3rem 1rem;
   background: #efefef;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .banner.blue {
   color: #ffffff;
-  background: rgb(0,174,239);
-  /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,174,239,1) 100%); */
+  background-color: rgb(0,174,239);
+}
+
+.banner.with-image {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #333333, -1px -1px 2px #333333;
 }
 
 .banner.blue button.primary {
@@ -122,6 +129,10 @@ section.boxes {
 
 .banner .logo {
   max-height: 100px;
+}
+
+.banner h4 {
+  font-size: 1.4rem;
 }
 
 .split {

@@ -2,11 +2,53 @@
 layout: layout.njk
 title: MyPeaks UK Hills
 tagline: Discover the Mountains and Hills of the UK and Ireland
-appstoreUrl: "https://itunes.apple.com/gb/app/mypeaks-uk-hills/id548452443?mt=8&uo=4"
+metaKeywords: "hills, list, mountains, munros, wainwright, lake, district, walk, walking, map, baggers, hill bagging"
+appstoreUrl: http://itunes.apple.com/gb/app/mypeaks-uk-hills/id548452443?mt=8&uo=4
+appstoreId: 548452443
+mediaPath: mypeaks
 ---
+<section class="banner with-image" style="background-image:url('/assets/{{mediaPath}}/bg.jpg')">
+  <article>
+    <img src="/assets/{{mediaPath}}/logo.png" alt="{{ title }}" class="logo">
+    <h4>{{ tagline }}</h4>
+    <article>
+      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download free from the App Store</button></p>
+    </article>
+  </article>
+</section>
+<section>
+  <article class="split">
+    <div>
+      <p>Enjoy hill walking? Track your progress in MyPeaks. Search through thousands of the UK's most spectacular hills and
+        mountains. Create a list of hills you would like to climb, mark your completed hills and track your progress as you
+        continue to climb. Watch as you get closer and closer to your goal. </p>
+      <p>Hill Lists included:</p>
+      <ul>
+        <li>Munros</li>
+        <li>Corbetts</li>
+        <li>Grahams</li>
+        <li>Donalds</li>
+        <li>Hewitts</li>
+        <li>Nuttals</li>
+        <li>Wainwrights</li>
+        <li>Marilyns</li>
+      </ul>
+    </div>
+    <div>
+      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+    </div>
+  </article>
+</section>
+<section>
+  <article class="screenshots">
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
+  </article>
+</section>
 <section class="banner">
-  <h1>{{ title }}</h1>
-  <h4>{{ tagline }}</h4>
-  <p>More info coming soon...</p>
-  <p><a href="{{ appstoreUrl }}" target="_blank">View on the App Store</a></p>
+  <article>
+    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+  </article>
 </section>
