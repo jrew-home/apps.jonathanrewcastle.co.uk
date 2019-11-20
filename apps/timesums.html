@@ -2,11 +2,46 @@
 layout: layout.njk
 title: "Time Sums: Time Calculator"
 tagline: Add and Subtract Times
-appstoreUrl: "https://itunes.apple.com/gb/app/time-sums-add-subtract-times/id934389212?mt=8&uo=4"
+metaKeywords: "time,hour,minutes,seconds,add,plus,minus"
+appstoreUrl: "http://itunes.apple.com/gb/app/time-sums-add-subtract-times/id934389212?mt=8&uo=4"
+appstoreId: 934389212
+mediaPath: timesums
 ---
 <section class="banner">
-  <h1>{{ title }}</h1>
-  <h4>{{ tagline }}</h4>
-  <p>More info coming soon...</p>
-  <p><a href="{{ appstoreUrl }}" target="_blank">View on the App Store</a></p>
+  <article>
+    <h1>{{ title }}</h1>
+    <h4>{{ tagline }}</h4>
+    <article>
+      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download from the App Store</button></p>
+    </article>
+  </article>
+</section>
+<section>
+  <article class="split">
+    <div>
+      <p>Easily add and subtract a list of times with Time Sums' easy to use time calculator. Ideal for quickly adding up total times to fill in timesheets and log books.</p>
+      <p>Features:</p>
+      <ul>
+        <li>Add or subtract an unlimited number of days, hours, minutes and seconds</li>
+        <li>Total automatically calculated as you type</li>
+        <li>Easy change previously entered times or delete an entire row</li>
+        <li>Simply tap the plus to change between addition and subtraction</li>
+        <li>Copy or export your result to other apps</li>
+      </ul>
+    </div>
+    <div>
+      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+    </div>
+  </article>
+</section>
+<section>
+  <article class="screenshots">
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
+  </article>
+</section>
+<section class="banner">
+  <article>
+    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+  </article>
 </section>
