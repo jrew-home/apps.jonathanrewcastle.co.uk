@@ -2,17 +2,17 @@
 layout: layout.njk
 title: Country Challenge Geography
 tagline: Challenge and improve your geography knowledge in this fun educational app for iPhone and iPad
-
 metaKeywords: flags,capitals,cities,world,earth,map,quiz,continent,geo,europe,america,africa,asia
 appstoreUrl: https://apps.apple.com/us/app/country-challenge-geography/id1451535868?ls=
 appstoreId: 1451535868
+mediaPath: country-challenge
 ---
 <section class="banner blue">
   <article>
-    <img src="/assets/country-challenge/logo-white.png" alt="{{ title }}" class="logo">
+    <img src="/assets/{{mediaPath}}/logo-white.png" alt="{{ title }}" class="logo">
     <h4>{{ tagline }}</h4>
     <article>
-      <p><button class="primary" onclick="window.open('https://apps.apple.com/us/app/country-challenge-geography/id1451535868?ls=1')">Download free from the App Store</button></p>
+      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download free from the App Store</button></p>
     </article>
   </article>
 </section>
@@ -37,17 +37,16 @@ appstoreId: 1451535868
       </ul>
     </div>
     <div>
-      <img src="/assets/country-challenge/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
     </div>
   </article>
 </section>
 <section>
   <article class="screenshots">
-    <article class="screenshot"><img src="/assets/country-challenge/screens/1.png"></article>
-    <article class="screenshot"><img src="/assets/country-challenge/screens/2.png"></article>
-    <article class="screenshot"><img src="/assets/country-challenge/screens/3.png"></article>
-    <article class="screenshot"><img src="/assets/country-challenge/screens/4.png"></article>
-    <article class="screenshot"><img src="/assets/country-challenge/screens/5.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
   </article>
 </section>
 <section class="banner">

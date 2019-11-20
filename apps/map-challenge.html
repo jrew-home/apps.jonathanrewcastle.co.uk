@@ -2,11 +2,49 @@
 layout: layout.njk
 title: Map Challenge
 tagline: Explore the World
-appstoreUrl: "https://itunes.apple.com/us/app/map-challenge/id1265246106?ls=1&mt=8"
+metaKeywords: "Mobile, App, Apps, iOS, iPhone, iPod Touch, iPad, Applications, geography, world, earth, country, continent, city, location, quiz, knowledge, mapping, identify, place"
+appstoreUrl: https://itunes.apple.com/us/app/map-challenge/id1265246106?ls=1&mt=8
+appstoreId: 1265246106
+mediaPath: map-challenge
 ---
+<section class="banner blue">
+  <article>
+    <img src="/assets/{{mediaPath}}/logo.png" alt="{{ title }}" class="logo">
+    <h4>{{ tagline }}</h4>
+    <article>
+      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download free from the App Store</button></p>
+    </article>
+  </article>
+</section>
+<section>
+  <article class="split">
+    <div>
+      <p>How many locations can you identify on the world map? Test your knowledge in this fun location-based quiz and learning tool, learning geography along the way.</p>
+      <p>Locations included:</p>
+      <ul>
+        <li>Capitals: capital cities of the world (200 locations)</li>
+        <li>Cities: cities towns and built-up places (200 locations)</li>
+        <li>Landmarks: monuments, bridges, castles and other landmarks (200 locations)</li>
+        <li>Natural features: mountains, lakes, waterfalls and volcanoes (200 locations)</li>
+      </ul>
+      <p>Each pack is divided into twenty levels of increasing difficulty, starting with the most well known locations in the world, and finishing with some less well known ones.</p>
+      <p>Track your scores and see how it improves as you recognise more and more locations.</p>
+    </div>
+    <div>
+      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+    </div>
+  </article>
+</section>
+<section>
+  <article class="screenshots">
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
+  </article>
+</section>
 <section class="banner">
-  <h1>{{ title }}</h1>
-  <h4>{{ tagline }}</h4>
-  <p>More info coming soon...</p>
-  <p><a href="{{ appstoreUrl }}" target="_blank">View on the App Store</a></p>
+  <article>
+    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+  </article>
 </section>
