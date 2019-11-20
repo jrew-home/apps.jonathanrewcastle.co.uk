@@ -44,6 +44,10 @@ article {
   margin: 0 auto;
 }
 
+img.circle {
+  border-radius: 50%;
+}
+
 header {
   height: 60px;
   border-bottom: 1px solid #eeeeee;
@@ -117,13 +121,17 @@ section.boxes {
   background-color: rgb(0,174,239);
 }
 
+.banner.blue button.primary {
+  color: rgb(0,174,239);
+  background-color: #ffffff;
+}
+
 .banner.with-image {
   color: #ffffff;
   text-shadow: 1px 1px 2px #333333, -1px -1px 2px #333333;
 }
 
-.banner.blue button.primary {
-  color: rgb(0,174,239);
+.banner.white {
   background-color: #ffffff;
 }
 
@@ -176,6 +184,28 @@ section.boxes {
 
 .cta {
   text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.features .feature {
+  width: 130px;
+  padding: 1rem;
+}
+
+.features .feature h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.features .feature img {
+  max-width: 100%;;
 }
 
 footer {
