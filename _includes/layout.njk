@@ -13,6 +13,9 @@ metaKeywords: mobile,apps
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }}</title>
     <meta name="keywords" content="{{ metaKeywords }}">
+    {% if appstoreId %}
+    <meta name="apple-itunes-app" content="app-id={{ appstoreId }}">
+    {% endif %}
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="/assets/apps.css" rel="stylesheet">
     <link rel="icon" href="/assets/favicon.ico">
