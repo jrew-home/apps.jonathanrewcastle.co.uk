@@ -9,6 +9,6 @@ window.supportEmail = () => {
   if (keys.platform) {
     subject += ' (' + keys.platform + ')';
   }
-  window.location = 'mailto://jrewapps@gmail.com?subject=' + subject;
+  window.location = 'mailto:jrewapps@gmail.com?subject=' + subject;
   console.log(subject);
 }
