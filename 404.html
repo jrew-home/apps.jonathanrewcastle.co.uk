@@ -23,3 +23,11 @@ layout: jrewapps
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+<script>
+  // Fix borrowed from https://github.com/daattali/daattali.github.io/blob/master/404.html#L14-L21
+  var url = location.href;
+  if(url.substr(url.length - 1) === '/') {
+    window.location = url.substr(0, url.length - 1);
+  }
+</script> 
