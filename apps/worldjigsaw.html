@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: jrewapps
 title: World Jigsaw
 tagline: Learn world maps the fun way
 metaKeywords: "Mobile, App, Apps, iOS, iPhone, iPod Touch, iPad, Applications, country, countries, map, maps, puzzle, challenge, test, geo, geography, earth, continents, learn, play, game, quiz"
@@ -7,12 +7,12 @@ appstoreUrl: https://itunes.apple.com/us/app/world-jigsaw/id976405299?ls=1&mt=8
 appstoreId: 976405299
 mediaPath: worldjigsaw
 ---
-<section class="banner with-image" style="background-image:url('/assets/{{mediaPath}}/bg.jpg')">
+<section class="banner with-image" style="background-image:url('/assets/{{page.mediaPath}}/bg.jpg')">
   <article>
-    <img src="/assets/{{mediaPath}}/logo.png" alt="{{ title }}" class="logo">
+    <img src="/assets/{{page.mediaPath}}/logo.png" alt="{{ page.title }}" class="logo">
     <h4>{{ tagline }}</h4>
     <article>
-      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download free from the App Store</button></p>
+      <p><button class="primary" onclick="window.open('{{ page.appstoreUrl }}')">Download free from the App Store</button></p>
     </article>
   </article>
 </section>
@@ -24,32 +24,32 @@ mediaPath: worldjigsaw
     <h3>App Features</h3>
     <div class="features">
       <div class="feature">
-        <img class="circle" src="/assets/{{mediaPath}}/play.png">
+        <img class="circle" src="/assets/{{page.mediaPath}}/play.png">
         <h4>Play</h4>
         <p>Connect the countries to complete the map</p>
       </div>
       <div class="feature">
-        <img class="circle" src="/assets/{{mediaPath}}/feedback.png">
+        <img class="circle" src="/assets/{{page.mediaPath}}/feedback.png">
         <h4>Improve</h4>
         <p>Learn as you play, with feedback upon placement</p>
       </div>
       <div class="feature">
-          <img class="circle" src="/assets/{{mediaPath}}/learn.png">
+          <img class="circle" src="/assets/{{page.mediaPath}}/learn.png">
           <h4>Learn</h4>
           <p>View the maps in a relaxed environment</p>
       </div>
       <div class="feature">
-        <img class="circle" src="/assets/{{mediaPath}}/save.png">
+        <img class="circle" src="/assets/{{page.mediaPath}}/save.png">
         <h4>Save / Resume</h4>
         <p>Save your game at come back to it at any time</p>
       </div>
       <div class="feature">
-        <img class="circle" src="/assets/{{mediaPath}}/moremaps.png">
+        <img class="circle" src="/assets/{{page.mediaPath}}/moremaps.png">
         <h4>Get More Maps</h4>
         <p>Download additional maps with varying difficulty</p>
       </div>
       <div class="feature">
-        <img class="circle" src="/assets/{{mediaPath}}/scores.png">
+        <img class="circle" src="/assets/{{page.mediaPath}}/scores.png">
         <h4>Challenge Yourself</h4>
         <p>Race against the clock to beat your best time, share wih friends</p>
       </div>
@@ -63,14 +63,14 @@ mediaPath: worldjigsaw
       <p>World Jigsaw is a fun and educational interactive map puzzle game with moveable countries. How quickly can you complete the world map by dragging the countries into their correct places? Connect the countries together and race against the clock to beat your previous scores, whilst learning where the countries are located within the world. For a more relaxed learning experience, choose to view a map, and tap a country to find out what it is.</p>
     </div>
     <div>
-      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+      <img src="/assets/{{page.mediaPath}}/screens/1.png" alt="{{ page.title }} Screenshot" class="screenshot"> 
     </div>
   </article>
 </section>
 <section>
   <article class="split">
     <div>
-      <img src="/assets/{{mediaPath}}/screens/2.png" alt="{{ title }} Screenshot" class="screenshot"> 
+      <img src="/assets/{{page.mediaPath}}/screens/2.png" alt="{{ page.title }} Screenshot" class="screenshot"> 
     </div>
     <div>
       <p>The app comes with a world countries and world continents map included, with the option to purchase additional maps covering different areas of the world.</p>
@@ -88,13 +88,13 @@ mediaPath: worldjigsaw
 </section>
 <section>
   <article class="screenshots">
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/5.png"></article>
   </article>
 </section>
 <section class="banner">
   <article>
-    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+    <p><button class="primary" onclick="window.open('{{ page.appstoreUrl }}')">View on the App Store</button></p>
   </article>
 </section>

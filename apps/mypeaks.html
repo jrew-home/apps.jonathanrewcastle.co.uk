@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: jrewapps
 title: MyPeaks UK Hills
 tagline: Discover the Mountains and Hills of the UK and Ireland
 metaKeywords: "hills, list, mountains, munros, wainwright, lake, district, walk, walking, map, baggers, hill bagging"
@@ -7,12 +7,12 @@ appstoreUrl: http://itunes.apple.com/gb/app/mypeaks-uk-hills/id548452443?mt=8&uo
 appstoreId: 548452443
 mediaPath: mypeaks
 ---
-<section class="banner with-image" style="background-image:url('/assets/{{mediaPath}}/bg.jpg')">
+<section class="banner with-image" style="background-image:url('/assets/{{page.mediaPath}}/bg.jpg')">
   <article>
-    <img src="/assets/{{mediaPath}}/logo.png" alt="{{ title }}" class="logo">
+    <img src="/assets/{{page.mediaPath}}/logo.png" alt="{{ page.title }}" class="logo">
     <h4>{{ tagline }}</h4>
     <article>
-      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download from the App Store</button></p>
+      <p><button class="primary" onclick="window.open('{{ page.appstoreUrl }}')">Download from the App Store</button></p>
     </article>
   </article>
 </section>
@@ -42,20 +42,20 @@ mediaPath: mypeaks
         </ul>
     </div>
     <div>
-      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+      <img src="/assets/{{page.mediaPath}}/screens/1.png" alt="{{ page.title }} Screenshot" class="screenshot"> 
     </div>
   </article>
 </section>
 <section>
   <article class="screenshots">
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/5.png"></article>
   </article>
 </section>
 <section class="banner">
   <article>
-    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+    <p><button class="primary" onclick="window.open('{{ page.appstoreUrl }}')">View on the App Store</button></p>
   </article>
 </section>

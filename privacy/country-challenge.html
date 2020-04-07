@@ -1,14 +1,14 @@
 ﻿---
-layout: layout.njk
+layout: jrewapps
 title: Privacy Policy
 appName: Country Challenge Geography
 ---
 <article>
     <p><em>Last Updated: 24th March 2020</em></p>
-    <h2>{{ appName }} Privacy Policy</h2>
+    <h2>{{ page.appName }} Privacy Policy</h2>
     <p>
-        This privacy policy governs your use of the software application <em>{{ appName }}</em> ("Application") for
-        mobile devices that was created by <em>{{ devName }}</em>.
+        This privacy policy governs your use of the software application <em>{{ page.appName }}</em> ("Application") for
+        mobile devices that was created by <em>{{ site.devName }}</em>.
     </p>
     <h3>What information does the Application obtain and how is it used?</h3>
     <h4>User Provided Information</h4>
@@ -85,7 +85,7 @@ appName: Country Challenge Geography
     <p>
         We do not use the Application to knowingly solicit data from or market to children under the age of 13. If a
         parent or guardian becomes aware that his or her child has provided us with information without their
-        consent, he or she should contact us at {{ email }}. We will delete such information from our files
+        consent, he or she should contact us at {{ site.email }}. We will delete such information from our files
         within a reasonable time.
     </p>
     <h3>Security</h3>
@@ -115,6 +115,6 @@ appName: Country Challenge Geography
     <h3>Contact us</h3>
     <p>
         If you have any questions regarding privacy while using the Application, or have questions about our
-        practices, please contact us via email at {{ email }}.
+        practices, please contact us via email at {{ site.email }}.
     </p>
 </article>

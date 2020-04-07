@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: jrewapps
 title: European Flags Challenge
 tagline: How well do you know your European Flags?
 metaKeywords: "geography, geo, world, europe, euro, eu, countries, quiz, quizzes, test, flags, recognition, places, flag, country"
@@ -9,10 +9,10 @@ mediaPath: europeanflags
 ---
 <section class="banner">
   <article>
-    <h1>{{ title }}</h1>
+    <h1>{{ page.title }}</h1>
     <h4>{{ tagline }}</h4>
     <article>
-      <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">Download free from the App Store</button></p>
+      <p><button class="primary" onclick="window.open('{{ page.appstoreUrl }}')">Download free from the App Store</button></p>
     </article>
   </article>
 </section>
@@ -33,21 +33,21 @@ mediaPath: europeanflags
       </ul>
     </div>
     <div>
-      <img src="/assets/{{mediaPath}}/screens/1.png" alt="{{ title }} Screenshot" class="screenshot"> 
+      <img src="/assets/{{page.mediaPath}}/screens/1.png" alt="{{ page.title }} Screenshot" class="screenshot"> 
     </div>
   </article>
 </section>
 <section>
   <article class="screenshots">
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/2.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/3.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/4.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/5.png"></article>
-    <article class="screenshot"><img src="/assets/{{mediaPath}}/screens/6.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/2.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/3.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/4.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/5.png"></article>
+    <article class="screenshot"><img src="/assets/{{page.mediaPath}}/screens/6.png"></article>
   </article>
 </section>
 <section class="banner">
   <article>
-    <p><button class="primary" onclick="window.open('{{ appstoreUrl }}')">View on the App Store</button></p>
+    <p><button class="primary" onclick="window.open('{{ page.appstoreUrl }}')">View on the App Store</button></p>
   </article>
 </section>
