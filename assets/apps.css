@@ -22,6 +22,7 @@ button, .button {
   cursor: pointer;
   padding: 1rem 2rem;
   transition: background-color 100ms linear;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 button:hover, .button:hover {
@@ -85,11 +86,13 @@ header nav a {
 .boxes .app-box {
   flex: 0 0 200px;
   height: 260px;
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   margin: 5px;
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .boxes .app-box a {
