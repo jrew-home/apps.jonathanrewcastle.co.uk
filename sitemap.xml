@@ -15,21 +15,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/globe-challenge</loc>
-  <lastmod>2020-05-19T22:28:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/country-challenge</loc>
-  <lastmod>2019-11-20T20:33:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/map-challenge</loc>
-  <lastmod>2019-11-20T20:33:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://apps.jonathanrewcastle.co.uk/apps/mypeaks</loc>
   <lastmod>2019-11-20T20:33:57+00:00</lastmod>
   <priority>0.80</priority>
@@ -40,32 +25,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/timesums</loc>
-  <lastmod>2019-11-20T20:33:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://apps.jonathanrewcastle.co.uk/apps/lakedistricthills</loc>
   <lastmod>2019-11-20T20:33:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apps.jonathanrewcastle.co.uk/apps/pacetrack</loc>
-  <lastmod>2019-11-20T20:33:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/towns-and-cities</loc>
-  <lastmod>2019-11-20T20:33:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/countryshapes</loc>
-  <lastmod>2019-11-20T20:33:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apps.jonathanrewcastle.co.uk/apps/europeanflags</loc>
   <lastmod>2019-11-20T20:33:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
